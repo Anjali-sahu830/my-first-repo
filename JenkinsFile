@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Fetch File') {
             steps {
-                git 'https://github.com/Anjali-sahu830/my-first-repo.git'
+                git'https://github.com/Anjali-sahu830/my-first-repo.git'
             }
         }
         stage('Building') {
